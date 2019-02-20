@@ -1,1 +1,77 @@
-/* Acá va tu código */
+body {
+    
+     
+    background-position: no-repeat:
+    
+    
+
+}
+
+.main-header{
+    margin: 0 auto;
+    background-color: rgba(94, 100, 94, 0.062);
+    margin-bottom: 70px;
+    box-shadow: 15px 20px 7px #004040;
+    color: white;
+    background-color: rgba(115, 162, 165, 0.62);
+    height: 80px;
+    text-align: center;
+    
+}
+h1 {
+    
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+    margin-bottom: 20px;
+}
+#icon1{
+    float: right;
+    
+}
+#icon2{
+    float: left;
+    height: 200px;
+}
+
+.style-main {
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    /*background-color: #fff;*/
+    padding: 10px 50px 50px 50px;
+    border-radius: 10px;
+    border: 0.1px solid #400040;
+    box-shadow: 3px 0px 28px 2px #004040;
+    margin-bottom: 50px;
+    background-color: rgba(236, 243, 236, 0.6);
+    
+}
+#welcome{
+    display: none;
+}
+.style-div{
+   
+    font-size: 40px;
+    text-align: center;
+    color: #131212;
+    padding: 2px 0px;
+    border-radius: 70px;
+    margin-top: 20px;
+    opacity: 0.9; 
+}
+.style-input{
+   
+    width: 250px;
+    font-size: 20px;
+    color: rgb(163, 73, 73);
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+.style-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

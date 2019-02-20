@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-      <h2>Todos -Somos iguales ejemplo 2</h2>
-    </div>
+    <header class="main-header">
+      <h1>ENCRIPTA TU CONTRASEÑA</h1>
+
+      <img id="icon1" src="images/contraseña-sf.png" />
+    </header>
+    <main class="style-main">
+      <div id="root" class="style-div">
+        <label for="">¿COMO QUISIERAS LLAMARTE? </label>
+        <input id="user" type="text" placeholder="Nombre" class="style-input" />
+        <input
+          id="btn1"
+          type="button"
+          value="Aceptar"
+          class="style-input"
+          onclick="showname()"
+        />
+        <img id="icon2" src="images/images.jpg" />
+      </div>
+      <section id="welcome" class="style-div">
+        <h2 id="name" class="style-margin">Bienvenida</h2>
+        <label for="" class="style-margin">Elige una opcion: </label>
+
+        <input
+          id="btn-encrypt"
+          type="button"
+          value="Encriptar contraseña"
+          class="style-input"
+          onclick="Encrypt()"
+        />
+        <input
+          id="btn-decrypt"
+          type="button"
+          value="Desencriptar contraseña"
+          class="style-input"
+          onclick="Decrypt()"
+        />
+      </section>
+    </main>
+
+    <footer></footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
