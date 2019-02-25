@@ -2,50 +2,93 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Caesar Cipher</title>
+    <title>Cigrar Online</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Raleway:400,800"
+    />
   </head>
   <body>
-    <header class="main-header">
-      <h1>ENCRIPTA TU CONTRASEÑA</h1>
-
-      <img id="icon1" src="images/contraseña-sf.png" />
+    <header id="header" class="main-header">
+      <h1 id="welcomeUser">ENCRIPTA TU CONTRASEÑA</h1>
+      <nav id="title-menu">
+        <ul>
+          <!-- <h2 id="name">¡La mejor forma de proteger tus contraseñas!</h2> -->
+        </ul>
+      </nav>
     </header>
     <main class="style-main">
       <div id="root" class="style-div">
-        <label for="">¿COMO QUISIERAS LLAMARTE? </label>
-        <input id="user" type="text" placeholder="Nombre" class="style-input" />
-        <input
-          id="btn1"
-          type="button"
-          value="Aceptar"
-          class="style-input"
-          onclick="showname()"
-        />
-        <img id="icon2" src="images/images.jpg" />
+        <h2 id="question">¿COMO QUISIERAS LLAMARTE?</h2>
+        <span id="span">
+          <input
+            id="user"
+            type="text"
+            placeholder="escribe tu nombre"
+            class="inline"
+            autofocus
+          />
+          <br />
+          <input
+            id="submit"
+            type="button"
+            value="ACEPTAR"
+            class="inline"
+            onclick="showname()"
+          /> </span
+        ><br />
       </div>
-      <section id="welcome" class="style-div">
-        <h2 id="name" class="style-margin">Bienvenida</h2>
-        <label for="" class="style-margin">Elige una opcion: </label>
 
+      <br />
+      <form id="form-decode" class="style-div">
+        <h2 id="textPass">Escribe la contraseña que deseas cifrar :</h2>
+
+        <span>
+          <input
+            id="password"
+            type="text"
+            placeholder="Escribe contraseña"
+            required
+          />
+          <label id="lbl-offset">Desplazamiento:</label>
+          <input id="offset" type="number" placeholder="Nº" required />
+        </span>
+        <div class="div"></div>
+        <label id="lbloption" class="style-margin">Elige una opcion: </label>
+        <div class="div"></div>
+        <span id="inline-btn">
+          <input
+            id="btn-encode"
+            type="button"
+            value="ENCRIPTAR"
+            onclick="btnEncod()"
+          />
+          <input
+            id="btn-decode"
+            type="button"
+            value="DESENCRIPTAR"
+            onclick="btnDecod()"
+          />
+        </span>
+
+        <p id="setPass">Aqui va el mensaje</p>
         <input
-          id="btn-encrypt"
+          id="btn-clear"
           type="button"
-          value="Encriptar contraseña"
-          class="style-input"
-          onclick="Encrypt()"
+          value="LIMPIAR"
+          onclick="btnClear()"
         />
         <input
-          id="btn-decrypt"
+          id="btn-exit"
           type="button"
-          value="Desencriptar contraseña"
-          class="style-input"
-          onclick="Decrypt()"
+          value="SALIR"
+          onclick="location.reload()"
         />
-      </section>
+      </form>
     </main>
 
-    <footer></footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
