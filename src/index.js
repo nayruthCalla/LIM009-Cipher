@@ -1,5 +1,4 @@
 /* Acá va tu código */
-
 const showname = () => {
   const userName = document.getElementById("user").value;
   if (userName.length == 0) {
@@ -14,25 +13,35 @@ const showname = () => {
   }
 };
 
-const btnEncod = () => {
-  let getOffset = parseInt(document.getElementById("offset").value);
-  let getString = String(document.getElementById("password").value);
-  document.getElementById("setPass").innerHTML = cipher.encode(
-    getOffset,
-    getString
-  );
-};
+const option = document.getElementById("main");
 
-const btnDecod = () => {
-  let getOffset = parseInt(document.getElementById("offset").value);
+option.addEventListener("click", e => {
   let getString = String(document.getElementById("password").value);
-  document.getElementById("setPass").innerHTML = cipher.decode(
-    getOffset,
-    getString
-  );
-};
+  let getOffset = parseInt(document.getElementById("offset").value);
 
-const btnClear = () => {
-  document.getElementById("offset").value = "";
-  document.getElementById("password").value = "";
-};
+  switch (e.target.id) {
+    case "submit":
+      showname();
+      break;
+    case "btn-encode":
+      document.getElementById("setPass").innerHTML = cipher.encode(
+        getOffset,
+        getString
+      );
+      break;
+    case "btn-decode":
+      document.getElementById("setPass").innerHTML = cipher.decode(
+        getOffset,
+        getString
+      );
+      break;
+    case "btn-clear":
+      document.getElementById("offset").value = "";
+      document.getElementById("password").value = "";
+      break;
+    case "btn-exit":
+      location.reload();
+
+    default:
+  }
+});

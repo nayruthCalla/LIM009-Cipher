@@ -19,7 +19,7 @@
         </ul>
       </nav>
     </header>
-    <main class="style-main">
+    <main class="style-main" id="main">
       <div id="root" class="style-div">
         <h2 id="question">¿COMO QUISIERAS LLAMARTE?</h2>
         <span id="span">
@@ -27,18 +27,14 @@
             id="user"
             type="text"
             placeholder="escribe tu nombre"
-            class="inline"
+            class="style-btn"
             autofocus
           />
           <br />
-          <input
-            id="submit"
-            type="button"
-            value="ACEPTAR"
-            class="inline"
-            onclick="showname()"
-          /> </span
-        ><br />
+          <button id="submit" class="style-btn">
+            ACEPTAR
+          </button>
+        </span>
       </div>
 
       <br />
@@ -56,36 +52,20 @@
           <input id="offset" type="number" placeholder="Nº" required />
         </span>
         <div class="div"></div>
-        <label id="lbloption" class="style-margin">Elige una opcion: </label>
+        <label>Elige una opcion: </label>
         <div class="div"></div>
         <span id="inline-btn">
-          <input
-            id="btn-encode"
-            type="button"
-            value="ENCRIPTAR"
-            onclick="btnEncod()"
-          />
-          <input
-            id="btn-decode"
-            type="button"
-            value="DESENCRIPTAR"
-            onclick="btnDecod()"
-          />
+          <button id="btn-encode" type="button" class="style-btn">
+            ENCRIPTAR
+          </button>
+          <button id="btn-decode" type="button" class="style-btn">
+            DESENCRIPTAR
+          </button>
         </span>
 
         <p id="setPass">Aqui va el mensaje</p>
-        <input
-          id="btn-clear"
-          type="button"
-          value="LIMPIAR"
-          onclick="btnClear()"
-        />
-        <input
-          id="btn-exit"
-          type="button"
-          value="SALIR"
-          onclick="location.reload()"
-        />
+        <button id="btn-clear" type="button" class="style-btn">LIMPIAR</button>
+        <button id="btn-exit" type="button" class="style-btn">VOLVER</button>
       </form>
     </main>
 

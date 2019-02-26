@@ -25,19 +25,11 @@ h1 {
 
   margin-bottom: 40px;
 }
-#icon1 {
-  float: right;
-}
-#icon2 {
-  float: left;
-  height: 200px;
-}
 
 .style-main {
   width: 800px;
   height: 450px;
   margin: 0 auto;
-  /*background-color: #fff;*/
   color: white;
   padding: 10px 50px 50px 50px;
   border-radius: 10px;
@@ -54,31 +46,11 @@ h1 {
   text-align: center;
   color: white;
   padding: 10px 10px;
-  /*background-image: url(images/mano.jpg);
-   background-color: rgba(16, 25, 26, 0.493);
-  */
-
   border-radius: 30px;
   height: 390px;
   font-weight: bold;
 }
-.style-input {
-  width: 250px;
-  font-size: 20px;
-  color: rgb(163, 73, 73);
-  border: 1px solid #1d3c6a;
-  margin: 10px 40px 10px 0px;
-  padding: 10px 10px;
-}
-.style-margin {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#btn-encode,
-#btn-decode,
-#btn-clear,
-#btn-exit {
+.style-btn {
   background: rgba(210, 230, 174, 0.856);
   margin-bottom: 70px;
   font-size: 20px;
@@ -93,32 +65,23 @@ h1 {
 }
 #user,
 #submit {
+  background: rgb(218, 220, 223);
+  width: 200px;
   margin-bottom: 20px;
-  font-size: 20px;
-  height: 40px;
-  width: 210px;
-  padding: 10px 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
-  border: 1px solid #1d3c6a;
-  margin-top: 10px;
+  border-radius: 21px;
+  padding-left: 10px;
 }
 #btn-clear,
 #btn-exit {
   height: 40px;
   width: 100px;
-}
-#lbloption {
-  display: block;
+  margin-left: 10px;
 }
 nav ul {
   margin-left: auto;
   margin-right: auto;
   list-style: none;
   overflow: hidden;
-  /* Limpiamos errores de float */
-  /* background-color: rgba(124, 177, 133, 0.829); */
   border-radius: 30px;
   background-color: rgba(16, 25, 26, 0.493);
   box-shadow: 3px 20px 28px 2px #004040;
@@ -127,7 +90,6 @@ nav ul {
 }
 h2 {
   margin-top: 15px;
-  /* background: #b0e2e256; */
   height: 50px;
   color: white;
   font-size: 25px;
@@ -169,9 +131,6 @@ h2 {
   box-shadow: 1px 10px 218px 1px #473144;
   border-color: #004040;
 }
-#inline-btn {
-  box-shadow: 10px 10px 218px 10px #ebb3e3;
-}
 label {
   font-size: 20px;
   color: #beb99c;
@@ -183,4 +142,6 @@ label {
   background-color: rgba(114, 172, 179, 0.493);
   height: 2px;
   color: beige;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
