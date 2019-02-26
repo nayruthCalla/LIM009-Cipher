@@ -42,6 +42,6 @@ option.addEventListener("click", e => {
     case "btn-exit":
       location.reload();
 
-    default:
+      break;
   }
 });
