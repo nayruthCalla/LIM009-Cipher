@@ -1,5 +1,5 @@
+Ver Formulario:         https://nayruthcalla.github.io/LIM009-Cipher/src/index.html
 # Cifrado César
-
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
@@ -15,18 +15,9 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-## Resumen del proyecto
+## Diseño del Formulario:
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. 
-
-Algunas ideas de ejemplo:
-
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
+![Formulario](https://www.draw.io/#G1KRPFZPz-CHtsk1yke3gHrf6KdyUquo_W "Formulario")
 
 
 ## Consideraciones generales
