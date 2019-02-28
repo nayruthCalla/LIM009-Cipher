@@ -7,12 +7,9 @@ window.cipher = {
 
     for (let i = 0; i < string.length; i++) {
       let getAscii = string.charCodeAt(i); //obteniendo el valor numérico de codigo Ascii
-      if (65 <= getAscii && getAscii <= 90) {
-        // Validamos si las letras ingresadas son mayúsculas
-        arrConvr += String.fromCharCode(((getAscii - 65 + offset) % 26) + 65); // concatenando cada letra para formar una palabra
-      } else {
-        alert("ingrese una letra mayúscula xf");
-      }
+
+      // Validamos si las letras ingresadas son mayúsculas
+      arrConvr += String.fromCharCode(((getAscii - 65 + offset) % 26) + 65); // concatenando cada letra para formar una palabra
     }
     return arrConvr;
   },
@@ -22,12 +19,9 @@ window.cipher = {
     /* Acá vvvva tu código */
     for (let i = 0; i < string.length; i++) {
       let getAsciii = string.charCodeAt(i); //obteniendo el valor numerico de codigo Ascii
-      if (65 <= getAsciii && getAsciii <= 90) {
-        // Validamos si las letras ingresadas son mayúsculas
-        arrDecode += String.fromCharCode(((getAsciii - 90 - offset) % 26) + 90); // concatenando cada letra para formar una palabra
-      } else {
-        alert("ingrese mayúsculas por favor :)");
-      }
+
+      // Validamos si las letras ingresadas son mayúsculas
+      arrDecode += String.fromCharCode(((getAsciii - 90 - offset) % 26) + 90); // concatenando cada letra para formar una palabra
     }
     return arrDecode;
   }
