@@ -16,10 +16,15 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ## Diseño del Formulario:
-
-![Formulario](https://www.draw.io/#G1KRPFZPz-CHtsk1yke3gHrf6KdyUquo_W "Formulario")
-
-
+### El primer diseño de papel 'Cipher Cesar':
+![Formulario]( src/images/diseño-papel1.jpg "Formulario")
+***
+![Formulario]( src/images/diseño-papel2.jpg "Formulario")
+### Diseño mejorado del formulario 'Cipher Cesar':
+![Formulario]( src/images/formulario-cipher.jpg "Formulario")
+***
+## **Funcionalidades del Formulario desarrollado**
+-El presente formulario tiene como objetivo cifrar una palabra utilizando la formula basado en el "CIFRADO CESAR ", se escribe una palabra y se elige un desplazamiento.
 ## Consideraciones generales
 
 - Este proyecto se debe resolver de manera individual.
