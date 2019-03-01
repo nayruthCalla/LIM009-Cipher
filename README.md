@@ -41,7 +41,16 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 
 ## Desarrollo del diagrama de flujo:
+### Primer diseño: 
+En el presente diseño se obserba que primero se hace la pregunta si desea cifrar o descifar antes de ingresar la contraseña y offset
+
 ![Formulario]( src/images/diagrama-flujo.jpg "Formulario")
+
+### Segundo diseño mejorado: 
+En este segundo formulario se optimiza el flujo de la operacion que se hace para cifrar o descifar 
+
+![Formulario]( src/images/diagrama-flujo-m.jpg "Formulario")
+***
 ## Diseño del Formulario:
 ### El primer diseño de papel 'Cipher Cesar':
 En este primer diseño se observó que seria redundante preguntar primero si quiere cifrar antes de ingresar la contraseña y el desplazamiento.
