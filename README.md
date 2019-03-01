@@ -46,19 +46,20 @@ En el presente diseño se obserba que primero se hace la pregunta si desea cifra
 
 ![Formulario]( src/images/diagrama-flujo.jpg "Formulario")
 
-### Segundo diseño mejorado: 
+### Segundo diseño (mejorado): 
 En este segundo formulario se optimiza el flujo de la operacion que se hace para cifrar o descifar 
 
 ![Formulario]( src/images/diagrama-flujo-m.jpg "Formulario")
 ***
 ## Diseño del Formulario:
+
 ### El primer diseño de papel 'Cipher Cesar':
 En este primer diseño se observó que seria redundante preguntar primero si quiere cifrar antes de ingresar la contraseña y el desplazamiento.
 ***
 ![Formulario]( src/images/diseño-papel1.jpg "Formulario")
 ![Formulario]( src/images/diseño-papel2.jpg "Formulario")
 ***
-### Diseño mejorado del formulario 'Cipher Cesar':
+### Segundo diseño del formulario(mejorado) 'Cipher Cesar':
 El presente diseño se observó que es mas optimo que el anterior, ya que el usuario ingresa la contraseña si quiere cifrar o descifrar de forma mas inmediata sin necesidad de ir a otro formulario.
 ![Formulario]( src/images/formulario-cipher.jpg "Formulario")
 ***
