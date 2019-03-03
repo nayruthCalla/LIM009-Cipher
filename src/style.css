@@ -126,19 +126,24 @@ h1{
   
   }
 
-}
+
 @media screen and (max-width: 30em){
   /* .header {background-color: rgba(16, 25, 26, 0.507);  */
-   
-  };
-  #lbl-offset{
+    #lbl-offset{
     
-    display: block;
+      display: block;
+    }
+    #offset{
+      width: 15%;
+    }
+    h1{
+      padding: 5%;
+    }
+  
   }
-  #offset{
-    width: 15%;
-  }
-}
+  
+    
+  
 @media screen and (max-width: 20em){
   /* .header{background-color: brown} */
 
