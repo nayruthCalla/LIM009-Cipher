@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 100%;
   text-align: center;
 }
 body {
@@ -34,7 +34,7 @@ body {
   }
 .center {
   max-width: 70%;  
-  margin: 0 auto;
+  margin: 3% auto;
   
 }
 .first-color{
@@ -99,213 +99,47 @@ margin-top:8%;
   height: 30%;
  
 }
+h1{
+  padding: 0.5%;
+}
 
 
 
 /* estilos generales  para responsive 1200px=> 75em 1024=> 64em 768=> 37.5em  480px => 30ppx 320=>20em*/
 @media screen and (max-width: 75em){
-  .header{background-color: red}
+  /* .header{background-color: red} */
 
 }
 @media screen and (max-width: 64em){
-  .header{background-color: blue}
+  /* .header{background-color: blue} */
+  #lbl-offset{
+    
+    display: block;
+  }
+  #offset{
+    width: 10%;
+  }
 
 }
 @media screen and (max-width: 37.5em){
-  .header{background-color: green}
+  /* .header{background-color: green */
+  
+  }
 
 }
 @media screen and (max-width: 30em){
-  .header, #main {background-color: yellow;
-    font-size: 13px;
+  /* .header {background-color: rgba(16, 25, 26, 0.507);  */
+   
   };
-  
-
-
-
+  #lbl-offset{
+    
+    display: block;
+  }
+  #offset{
+    width: 15%;
+  }
 }
 @media screen and (max-width: 20em){
-  .header{background-color: brown}
+  /* .header{background-color: brown} */
 
 }
-/* @media screen and (max-width: 20em){
-  .header{background-color: brown}
-
-} */
-
-
-
-
-
-/* 
-
-body {
-  background-position: no-repeat;
-  background-image: url(images/font-main.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #1a1b1bf3;
-}
-.main{
-	width: 100px;
-	height: 100px;
-	background-color: darkred;
-}
-@media (max-width: 600px){
-	.main{
-		background-color: blue;
-		width: 90%;
-	}
-}
-@media (min-width: 601px) and (max-width: 900px){
-	.main{
-		background-color: yellow;
-		width: 50%;
-	}
-}
-@media (min-width: 901px){
-	.main{
-		background-color: silver;
-		width: 70%;
-	}
-}
-
-.main-header {
-  margin: 0 auto;
-  background-color: rgba(94, 100, 94, 0.062);
-  border-radius: 10px;
-  box-shadow: 15px 20px 7px #004040;
-  color: white;
-  background-color: rgba(115, 162, 165, 10);
-  height: 50px;
-  text-align: center;
-  width: 630px;
-}
-h1 {
-  font-size: 40px;
-  text-align: center;
-  color: #ffffff;
-  padding: 2px 0px;
-
-  margin-bottom: 40px;
-}
-
-.style-main {
-  width: 800px;
-  height: 450px;
-  margin: 0 auto;
-  color: white;
-  padding: 10px 50px 50px 50px;
-  border-radius: 10px;
-  border: 0.1px solid #400040;
-  box-shadow: 3px 20px 28px 2px #004040;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  background-color: rgba(16, 25, 26, 0.493);
-}
-#form-decode {
-  display: none;
-}
-.style-div {
-  text-align: center;
-  color: white;
-  padding: 10px 10px;
-  border-radius: 30px;
-  height: 390px;
-  font-weight: bold;
-}
-.style-btn {
-  background: rgba(210, 230, 174, 0.856);
-  margin-bottom: 70px;
-  font-size: 20px;
-  height: 40px;
-  width: 210px;
-  padding: 10px 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  border: 1px solid #1d3c6a;
-  margin-top: 10px;
-}
-#user,
-#submit {
-  background: rgb(218, 220, 223);
-  width: 200px;
-  margin-bottom: 20px;
-  border-radius: 21px;
-  padding-left: 10px;
-}
-#btn-clear,
-#btn-exit {
-  height: 40px;
-  width: 100px;
-  margin-left: 10px;
-}
-nav ul {
-  margin-left: auto;
-  margin-right: auto;
-  list-style: none;
-  overflow: hidden;
-  border-radius: 30px;
-  background-color: rgba(16, 25, 26, 0.493);
-  box-shadow: 3px 20px 28px 2px #004040;
-  width: 530px;
-  font-size: 20px;
-}
-h2 {
-  margin-top: 15px;
-  height: 50px;
-  color: white;
-  font-size: 25px;
-  border-radius: 50px;
-  padding-top: 10px;
-}
-#password,
-#textPass {
-  height: 20px;
-  width: 200;
-  padding: 10px 10px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  border-radius: 20px;
-  border: 10px;
-  border-color: #004040;
-  margin-bottom: 10px;
-}
-#offset {
-  width: 50px;
-  height: 20px;
-  padding: 1px 1px;
-}
-#btn-encode {
-  margin-right: 30px;
-}
-#setPass {
-  width: 300px;
-  height: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  background: rgb(211, 209, 209);
-  padding: 5px 5px;
-  color: black;
-  border-radius: 10px;
-  margin-top: 30px;
-}
-#form-decode {
-  box-shadow: 1px 10px 218px 1px #473144;
-  border-color: #004040;
-}
-label {
-  font-size: 20px;
-  color: #beb99c;
-  padding-left: 40px;
-  border-color: #004040;
-}
-.div {
-  width: 795px;
-  background-color: rgba(114, 172, 179, 0.493);
-  height: 2px;
-  color: beige;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}  */
