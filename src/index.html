@@ -1,75 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Cigrar Online</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css?family=Raleway:400,800"
-    />
-  </head>
-  <body>
-    <header id="header" class="main-header">
-      <h1 id="welcomeUser">ENCRIPTA TU CONTRASEÑA</h1>
-      <nav id="title-menu">
-        <ul>
-          <!-- <h2 id="name">¡La mejor forma de proteger tus contraseñas!</h2> -->
-        </ul>
-      </nav>
-    </header>
-    <main class="style-main" id="main">
-      <div id="root" class="style-div">
-        <h2 id="question">¿COMO QUISIERAS LLAMARTE?</h2>
-        <span id="span">
-          <input
-            id="user"
-            type="text"
-            placeholder="escribe tu nombre"
-            class="style-btn"
-            autofocus
-          />
-          <br />
-          <button id="submit" class="style-btn">
-            ACEPTAR
-          </button>
-        </span>
-      </div>
 
-      <br />
-      <form id="form-decode" class="style-div">
-        <h2 id="textPass">Escribe la contraseña que deseas cifrar :</h2>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+  <title>Cigrar Online</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,800" />
+</head>
 
-        <span>
-          <input
-            id="password"
-            type="text"
-            placeholder="Escribe contraseña"
-            required
-          />
-          <label id="lbl-offset">Desplazamiento:</label>
-          <input id="offset" type="number" placeholder="Nº" required />
-        </span>
-        <div class="div"></div>
-        <label>Elige una opcion: </label>
-        <div class="div"></div>
-        <span id="inline-btn">
-          <button id="btn-encode" type="button" class="style-btn">
-            ENCRIPTAR
-          </button>
-          <button id="btn-decode" type="button" class="style-btn">
-            DESENCRIPTAR
-          </button>
-        </span>
+<body>
+  <!-- El encabezado de la página-->
+  <header class="header first-color center borderShadow">
+    <h1 id="welcomeUser" class="margin-bottn margin-top">ENCRIPTA TU CONTRASEÑA</h1>
+  </header>
+  <!-- El cuerpo de la página -->
+  <main class="style-color center borderShadow" id="main">
+    <!-- Bienvenida al usuario -->
+    <div id="root" class="style-div">
+      <h2 id="question" class="style-color ">¿COMO QUISIERAS LLAMARTE?</h2>
+      <!-- Solicitud de datos al usuario -->
+      <span id="span">
+        <input id="user" type="text" placeholder="escribe tu nombre" class="style-btn margin-top borderShadow"
+          autofocus />
+        <br />
+        <button id="submit" class="style-btn style-color ">
+          ACEPTAR
+        </button>
+      </span>
+    </div>
 
-        <p id="setPass">Aqui va el mensaje</p>
-        <button id="btn-clear" type="button" class="style-btn">LIMPIAR</button>
-        <button id="btn-exit" type="button" class="style-btn">VOLVER</button>
-      </form>
-    </main>
+    <br />
+    <!-- Formulario para  cifrar y descifar -->
+    <form id="form-decode" class="color center ">
+      <h2 id="textPass">Escribe la contraseña que deseas cifrar :</h2>
+      <!-- Ingreso de contraseña y desplazamiento -->
+      <span>
+        <input id="password" type="text" placeholder="Escribe contraseña" class="style-input" required />
+        <label id="lbl-offset" class="margin-bottn">Desplazamiento:</label>
+        <input id="offset" type="number" placeholder="Nº" class="style-input" required />
+      </span>
+      <!-- Seleccion de cifrar o descifrar -->
+      <div class="div"></div>
+      <label for="">Elige una opción</label>
+      <div class="div"></div>
+      <span id="inline-btn">
+        <button id="btn-encode" type="button" class="style-btn btn-color  ">
+          ENCRIPTAR
+        </button>
+        <button id="btn-decode" type="button" class="style-btn margin-bottn btn-color">
+          DESENCRIPTAR
+        </button>
+      </span>
+      <!-- Mostrando el resultado de la seleccion anterior -->
+      <p id="setPass" class="margin-bottn style-input margin-top ">Aqui va el mensaje</p>
+      <button id="btn-clear" type="button" class="style-btn  btn-color ">LIMPIAR</button>
+      <button id="btn-exit" type="button" class="style-btn  btn-color">VOLVER</button>
+    </form>
+  </main>
+  <footer id="footer " class="first-color center ">
+    <!-- <p class="margin-top">CARMEN NAYRUTH CALLA MAMANI (LABORATORIA)</p> -->
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  </footer>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

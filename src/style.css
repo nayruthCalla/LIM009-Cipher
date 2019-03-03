@@ -1,9 +1,170 @@
+html{
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+}
+body {
+  background-image: url(images/font-main.jpg);
+  background-position: no-repeat;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1a1b1bf3;
+  background-size: cover;
+  border-image-width: 90%;
+  
+}
+.borderShadow{
+  border-radius: 10px;
+  box-shadow: 3px 20px 28px 2px #004040d3;
+  color:  #ffffff;
+  
+}
+.margin-bottn{
+  margin-bottom: 4%;
+  margin-left: 7%;
+}
+.margin-top{
+  margin-top: 8%;
+}
+
+.style-color{
+  border: 0.1px solid #001811ad;  
+  background-color: rgba(16, 25, 26, 0.507);  
+  }
+.center {
+  max-width: 70%;  
+  margin: 0 auto;
+  
+}
+.first-color{
+  background-color: rgba(115, 162, 165, 10);  
+  width: 50%;
+ 
+}
+
+.style-div { 
+  margin-bottom: 15%;
+  }
+
+.style-btn{
+  background: rgba(247, 249, 252, 0.993);
+  font-size: 20px;
+ color: black;
+  margin-bottom: 2%;
+  border-radius: 30%;
+  padding: 1%;
+
+}
+
+.div {
+  width: 100%; 
+  
+  margin-top:2%;  
+  
+  background-color: rgba(114, 172, 179, 0.493);
+  height: 2px;
+   
+}
+.style-input{
+  background-color: white;
+  margin-left: 2%;
+  border-radius: 20%;
+  padding: 2%;
+}
+#offset{
+  width: 5%;
+}
+.btn-color{
+ background-color: rgba(115, 162, 165, 0.40);   
+  /* background: rgba(210, 230, 174, 0.856); */
+  color: white;
+  font-family: inherit;
+  margin-bottom:5%;
+  margin-top:4%; 
+}
+#setPass{
+width: 50% ;
+margin: 0 auto;
+background: rgb(211, 209, 209,0.7);
+margin-top:8%;
+}
+#main{
+  height: 70%;
+}
+#form-decode {
+  display: none;
+  box-shadow: 1px 10px 218px 1px #473144;
+  border-color: #004040; 
+  height: 30%;
+ 
+}
+
+
+
+/* estilos generales  para responsive 1200px=> 75em 1024=> 64em 768=> 37.5em  480px => 30ppx 320=>20em*/
+@media screen and (max-width: 75em){
+  .header{background-color: red}
+
+}
+@media screen and (max-width: 64em){
+  .header{background-color: blue}
+
+}
+@media screen and (max-width: 37.5em){
+  .header{background-color: green}
+
+}
+@media screen and (max-width: 30em){
+  .header, #main {background-color: yellow;
+    font-size: 13px;
+  };
+  
+
+
+
+}
+@media screen and (max-width: 20em){
+  .header{background-color: brown}
+
+}
+
+
+
+
+
+
+/* 
+
 body {
   background-position: no-repeat;
   background-image: url(images/font-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #1a1b1bf3;
+}
+.main{
+	width: 100px;
+	height: 100px;
+	background-color: darkred;
+}
+@media (max-width: 600px){
+	.main{
+		background-color: blue;
+		width: 90%;
+	}
+}
+@media (min-width: 601px) and (max-width: 900px){
+	.main{
+		background-color: yellow;
+		width: 50%;
+	}
+}
+@media (min-width: 901px){
+	.main{
+		background-color: silver;
+		width: 70%;
+	}
 }
 
 .main-header {
@@ -144,4 +305,4 @@ label {
   color: beige;
   margin-top: 10px;
   margin-bottom: 10px;
-}
+}  */
