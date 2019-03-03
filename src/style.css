@@ -128,7 +128,10 @@ margin-top:8%;
   .header{background-color: brown}
 
 }
+/* @media screen and (max-width: 20em){
+  .header{background-color: brown}
 
+} */
 
 
 
