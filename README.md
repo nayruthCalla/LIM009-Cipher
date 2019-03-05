@@ -25,9 +25,9 @@ Cómo utilizarlo:
 1) Ingresa nombre de usuario.
 2) Escribe un contrseña en la primera casilla.
 3) Ingresa un número posiciones a desplazar.
-4) Hacer click en el boton "ENCRIPTAR" para cifrar la contrseña; o hacer clic en "DESENCRIPTAR" para descifrar la contrseña.
-5) Hacer click en e boton "LIMPIAR" si desea limpiar la casilla de ingresar contraseña y Nº a desplazar.
-6) Hacer click en el boton  "SALIR" si desea regresar al inicio.
+4) Hacer click en el botón "ENCRIPTAR" para cifrar la contrseña; o hacer clic en "DESENCRIPTAR" para descifrar la contrseña.
+5) Hacer click en e botón "LIMPIAR" si desea limpiar la casilla de ingresar contraseña y Nº a desplazar.
+6) Hacer click en el botón  "SALIR" si desea regresar al inicio.
 
 ### Cifrado César 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -48,19 +48,19 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 ## Desarrollo del diagrama de flujo:
 ### Primer diseño: 
-En el presente diseño se obserba que primero se hace la pregunta si desea cifrar o descifar antes de ingresar la contraseña y offset
+En el presente diseño se obserba que antes de ingresar el texto(contraseña) y el desplazamiento(offset) se hace la condicion si desea cifrar o descifar.
 
 ![Formulario]( src/images/diagrama-flujo.jpg "Formulario")
 
 ### Segundo diseño (mejorado): 
-En este segundo formulario se optimiza el flujo de la operacion que se hace para cifrar o descifar 
+En este segundo formulario se optimiza el flujo de la operacion, se vio conveniente que primero ingrese el texto(contraseña) y el desplazamiento(offset). para posterior eleccion si desea cifrar o descifrar.
 
 ![Formulario]( src/images/diagrama-flujo-m.jpg "Formulario")
 ***
 ## Diseño del Formulario:
 
 ### El primer diseño de papel 'Cipher Cesar':
-En este primer diseño se observó que seria redundante preguntar primero si quiere cifrar antes de ingresar la contraseña y el desplazamiento.
+En este primer diseño se realizó segun al primer diagrama de flujo planteado.
 ***
 ![Formulario]( src/images/diseño-papel1.jpg "Formulario")
 ![Formulario]( src/images/diseño-papel2.jpg "Formulario")
