@@ -1,7 +1,13 @@
-Ver producto desarrollado :  https://nayruthcalla.github.io/LIM009-Cipher/src/index.html
-
-***
 # La seguridad en tus manos (Cipher Cesar)
+Ver producto desarrollado :  https://nayruthcalla.github.io/LIM009-Cipher/src/index.html
+***
+#### 🚀 Como obtener el codigo fuente:
+1) Tener un 📝 editor de texto.
+2) Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS, ya tienes una shell (terminal) instalada por defecto (y probablemente git también 🐧). Si usas Windows puedes usar Git bash.
+3) Haz tu propio 🍴 fork del repositorio.
+4) ⬇️ Clona tu fork a tu computadora (copia local).
+5) 📦 Instala las dependencias del proyecto con el comando npm install, siempre que ya tengas instalado node.js.
+***
 ## Definicion del producto
 - Quiénes son los principales usuarios de producto: Los principales usuarios son personas que desean guardar sus contraseñas encriptadas de todas sus cuentas como facebook, gmail, paypal, etc.
 Para proteger la seguridad de su informacion y sus datos, hoy en día muchas personas guardan sus contraseña sin ningun tipo de encriptacion y esto hace posible que personas no autorizada puedan tener acceso a sus datos y poder robar información ocasionando daños económicos, sociales, etc.   
@@ -81,10 +87,13 @@ El código del formulario se basa principalmente en 5 archivos, los cuales se ha
     * 2do test: cipher.encode debería ser una funcion.
     * 3er test: prueba la funcionalidad de `cipher.encode`  con letras MAYUSCULAS.
     * 4to test: prueba la funcionalidad de `cipher.encode`  con letras MINUSCULAS.
-    * 5to test: prueba la funcionalidad de `cipher.encode`  con SIGNOS Y NÚMEROS.
+    * 5to test: prueba la funcionalidad de `cipher.encode`  con SIGNOS Y NÚMEROS, ETC.
     
 ### Test Realizados:
 ![Primer Test Ok](  src/images/test-1.jpg  "1er Test Unitario Ok")
+### test Hacker edition:
+![Segundo Test Ok](  src/images/test-hacking.jpg  "2do Test Ok")
+![Segundo Test Ok](  src/images/ index-test.jpg  "2do Test Ok")
 
 ## Recursos y temas relacionados
 
