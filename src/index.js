@@ -38,6 +38,7 @@ option.addEventListener("click", e => {
     case "btn-clear":
       document.getElementById("offset").value = "";
       document.getElementById("password").value = "";
+      document.getElementById('setPass').innerHTML = " ";
       break;
     case "btn-exit":
       location.reload();
