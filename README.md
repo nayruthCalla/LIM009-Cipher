@@ -69,6 +69,11 @@ En este primer diseño se observó que seria redundante preguntar primero si qui
 El presente diseño se observó que es mas optimo que el anterior, ya que el usuario ingresa la contraseña si quiere cifrar o descifrar de forma mas inmediata sin necesidad de ir a otro formulario.
 ![Formulario]( src/images/formulario-cipher.jpg "Formulario")
 ***
+### Formulario implementado:
+
+![Formulario]( src/images/form-index.jpg "Formulario")
+***
+![Formulario]( src/images/cipher.jpg "Formulario")
 
 ## Descripcion técnica del producto:
 El código del formulario se basa principalmente en 5 archivos, los cuales se ha codificado:
