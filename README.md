@@ -92,8 +92,9 @@ El código del formulario se basa principalmente en 5 archivos, los cuales se ha
 ### Test Realizados:
 ![Primer Test Ok](  src/images/test-1.jpg  "1er Test Unitario Ok")
 ### test Hacker edition:
-![Segundo Test Ok](  src/images/test-hacking.jpg  "2do Test Ok")
-![Segundo Test Ok](  src/images/ index-test.jpg  "2do Test Ok")
+![Segundo Test Ok](  src/images/test-edtion.jpg  "2do Test Ok")
+
+![Segundo Test Ok](  src/images/index-test.jpg  "2do Test Ok")
 
 ## Recursos y temas relacionados
 
