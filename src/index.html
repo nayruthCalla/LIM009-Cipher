@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Amiri|ZCOOL+QingKe+HuangYou" rel="stylesheet">
   <!-- <meta name="viewport" -->
   <!-- content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0"> -->
   <!-- <meta name="viewport" content="width=[Pixeles del mínimo ancho para visualizar bien la web]" /> -->
@@ -16,11 +17,14 @@
   <header class="header">
     <h1 id="welcomeUser" class=" first-color  center borderShadow margin-bottn margin-top ">ENCRIPTA TU CONTRASEÑA</h1>
   </header>
+
+
   <!-- El cuerpo de la página -->
   <main class="style-color center borderShadow" id="main">
     <!-- Bienvenida al usuario -->
     <div id="root" class="style-div">
       <h2 id="question" class="style-color ">¿COMO QUISIERAS LLAMARTE?</h2>
+
       <!-- Solicitud de datos al usuario -->
       <span id="span">
         <input id="user" type="text" placeholder="escribe tu nombre" class="style-btn margin-top borderShadow"
@@ -40,7 +44,7 @@
       <span>
         <input id="password" type="text" placeholder="Escribe contraseña" class="style-btn " required />
         <label id="lbl-offset" class="margin-bottn">Desplazamiento:</label>
-        <input id="offset" type="number" placeholder="Nº" class="style-input" required min="0" />
+        <input id="offset" type="number" placeholder="Nº" class="style-input" />
       </span>
       <!-- Seleccion de cifrar o descifrar -->
       <div class="div"></div>
@@ -55,8 +59,8 @@
         </button>
       </span>
       <!-- Mostrando el resultado de la seleccion anterior -->
-      <p id="setPass" class="margin-bottn style-input margin-top ">Aqui va el mensaje</p>
-      <button id="btn-clear" type="button" class="style-btn  btn-color ">LIMPIAR</button>
+      <p id="setPass" class="margin-bottn style-input margin-top style-btn ">Aqui va el mensaje</p>
+      <button id="btn-clear" type="button" class="style-btn  btn-color "> LIMPIAR</button>
       <button id="btn-exit" type="button" class="style-btn  btn-color">VOLVER</button>
     </form>
   </main>
